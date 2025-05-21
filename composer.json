@@ -7,11 +7,13 @@
     "psr-4": {
       "Payment\\": "src/Payment/",
       "Fraud\\": "src/Fraud/",
+      "Queue\\": "src/Queue/",
       "Entity\\": "src/Payment/Entity/"
     }
   },
   "require": {
-    "php": ">=7.4"
+    "php": ">=7.4",
+    "ext-json": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.0"
